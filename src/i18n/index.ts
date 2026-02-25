@@ -1,8 +1,8 @@
 import ja from "@/i18n/messages/ja.json";
 import ko from "@/i18n/messages/ko.json";
 
-export const SUPPORTED_LOCALES = ["ja", "ko"] as const;
-export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
+export { SUPPORTED_LOCALES, type SupportedLocale } from "@/i18n/locales";
+import { SUPPORTED_LOCALES, type SupportedLocale } from "@/i18n/locales";
 
 export type UiMessages = typeof ja;
 

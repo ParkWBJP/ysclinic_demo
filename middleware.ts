@@ -1,7 +1,7 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
-import { SUPPORTED_LOCALES } from "./src/i18n";
+import { SUPPORTED_LOCALES } from "./src/i18n/locales";
 
 const PUBLIC_FILE = /\.(.*)$/;
 
