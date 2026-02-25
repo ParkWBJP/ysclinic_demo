@@ -10,6 +10,11 @@ npm install
 npm run dev
 ```
 
+Windows에서 로컬 서버가 안 뜨거나 포트 충돌이 날 때:
+```bash
+npm run dev:reset
+```
+
 프로덕션 빌드:
 ```bash
 npm run build

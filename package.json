@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "node -e \"try{require('node:fs').rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
     "parse:xml": "tsx scripts/parse-wxr.ts",
+    "dev:reset": "node scripts/dev-reset.cjs",
     "dev": "npm run clean && npm run parse:xml && next dev",
     "build": "npm run clean && npm run parse:xml && next build",
     "start": "next start",
