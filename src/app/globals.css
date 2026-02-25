@@ -41,11 +41,11 @@ html {
 }
 
 body {
-  font-family: var(--font-body-ja), "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
 }
 
 .locale-ko {
-  font-family: var(--font-body-ko), "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Nanum Gothic", sans-serif;
 }
 
 h1,
@@ -53,7 +53,7 @@ h2,
 h3,
 h4 {
   margin: 0;
-  font-family: var(--font-heading-ja), "Yu Mincho", serif;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
   font-weight: 600;
   letter-spacing: 0.01em;
 }
@@ -62,7 +62,7 @@ h4 {
 .locale-ko h2,
 .locale-ko h3,
 .locale-ko h4 {
-  font-family: var(--font-heading-ko), "Nanum Myeongjo", serif;
+  font-family: "Nanum Myeongjo", "Apple SD Gothic Neo", serif;
 }
 
 p {
