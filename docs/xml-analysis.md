@@ -3,7 +3,7 @@
 ## Source
 - File: `data/source/yj.WordPress.2026-02-25.xml`
 - Site: YJホーリック美容外科 (https://yjholic.com)
-- Generated at: 2026-02-25T05:07:29.759Z
+- Generated at: 2026-02-25T05:12:21.126Z
 
 ## Item Counts
 - Total items: 305
