@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "clean": "node -e \"try{require('node:fs').rmSync('.next',{recursive:true,force:true})}catch(e){}\"",
     "parse:xml": "tsx scripts/parse-wxr.ts",
-    "dev": "npm run parse:xml && next dev",
-    "build": "npm run parse:xml && next build",
+    "dev": "npm run clean && npm run parse:xml && next dev",
+    "build": "npm run clean && npm run parse:xml && next build",
     "start": "next start",
     "typecheck": "tsc --noEmit"
   },
